@@ -11,10 +11,10 @@ Data = dict(loads(open('Database/Config.json','r').read()))
 AllPost = {}
 SleepForDelPost = 8
 # --------------------------------------------------- Config ------------------------------------------------------------
-UserNameBot = ''  # UserName Bot Bedune @
-Creator = [] # Id Adadi Creator
-ApiID = 1392862 # Api ID
-ApiHash = 'a83edd5f91334083a4de0ce385ec19a8' # Api Hash
+UserNameBot = ''  # bot UserName without @ example: telegrambot
+Creator = [] # creators user id
+ApiID = 123456789 # Api ID
+ApiHash = '' # Api Hash
 Token = '' # Token Bot
 Bot = TelegramClient('Bot', ApiID, ApiHash).start(bot_token=Token)
 # ----------------------------------------------------- Bot --------------------------------------------------------------
