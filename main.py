@@ -11,8 +11,8 @@ Data = dict(loads(open('Database/Config.json','r').read()))
 AllPost = {}
 SleepForDelPost = 8
 # --------------------------------------------------- Config ------------------------------------------------------------
-UserNameBot = ''  # bot UserName without @ example: telegrambot
-Creator = [] # creators user id
+UserNameBot = 'MohamamdMahdiArbabpouri'  # bot UserName without @ example: telegrambot
+Creator = [2056493966, ] # creators user id
 ApiID = 123456789 # Api ID
 ApiHash = '' # Api Hash
 Token = '' # Token Bot

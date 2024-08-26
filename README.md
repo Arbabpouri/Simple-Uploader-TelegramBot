@@ -1,14 +1,37 @@
-# Sample telegram uploader :sunglasses:
-**please give me star:star:**
+# 📤 Telegram Uploader Bot
 
+This Telegram bot allows you to upload your media files and receive a dedicated link for them. Anyone who accesses the bot through this link can access the media file.
 
-**Do these things first : :point_down:**
+## 🚀 Features
 
-```
-pip install telethon
-```
+- Easy Upload: Simply upload your media files.
+- Unique Link: Receive a unique link for each file.
+- Easy Access: Anyone with the link can download the file.
 
-Then:
-Enter the config file in the Database directory and set the value of PostChannel with the numerical ID of the private channel where the posts are supposed to be placed and the created admin robot.
-Now enter main.py and set the values of Api id and ... .
+### Admin Panel
 
+- Bot Status
+- Send To All Members
+- Restart Bot
+- Add New Channel
+- Remove Channel
+- Show Channels List
+- Add New Admin
+- Remove Admin
+- Show Admins List
+---
+![Admin Panel](./readme/admin_panel.png)
+
+## 🛠 How to Use
+
+1. Set up the bot in Telegram.
+2. Add the necessary information in the config.
+3. Run the bot.
+
+## 🎉 Conclusion
+
+With this bot, you can easily share your media files and enjoy its features! 📲✨
+
+—
+
+> Note: Use of this bot must comply with Telegram's terms and conditions and intellectual property rights.
